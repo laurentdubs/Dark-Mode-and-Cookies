@@ -1,0 +1,10 @@
+form {
+    display: inline;
+}
+
+.f {
+    float: left;
+  }
+  .clr {
+    clear: both;
+  }

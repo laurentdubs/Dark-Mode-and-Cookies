@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}}
+
+{% block content %}
+    
+    <h3>Choose your appearance :</h3>
+
+    <form method="POST" action="/home">
+       
+        <div id="buttons">
+            <input type="submit" class="f" name="light" value="light">
+            <input type="submit" class="f" name="dark" value="dark">
+                <div class="clr"></div>
+        </div>
+            <input type="text" name="submit">
+    </form>
+
+{% endblock %}  
